@@ -1,0 +1,8 @@
+runs/
+*.vcd
+*.fst
+*a.out
+*log
+*obj_dir
+*sim_build
+*results.xml
