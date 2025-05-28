@@ -1,0 +1,15 @@
+---
+CLOCK_PERIOD: 10
+CLOCK_PORT:
+  - wr_clk
+  - rd_clk
+FP_PDN_VOFFSET: 7
+FP_PDN_HOFFSET: 7
+FP_PDN_SKIPTRIM: true
+RUN_POST_GRT_RESIZER_TIMING: true
+RUN_POST_GRT_DESIGN_REPAIR: true
+SYNTH_AUTONAME: true
+PNR_SDC_FILE: constraints.sdc
+SIGNOFF_SDC_FILE: constraints.sdc
+DESIGN_NAME: cocomelon
+VERILOG_FILES: dir::rtl/*.sv
